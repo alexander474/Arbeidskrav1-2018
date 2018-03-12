@@ -1,9 +1,11 @@
+import java.util.Objects;
+
 /**
  * This class would connect all the subclasses
  */
-public abstract class Meter {
+public class Meter {
     String registerNumber, placementCode;
-    boolean status; // broken or okey
+    boolean status = false; // broken or okey (default is false)
 
     public Meter(String registerNumber, String placementCode, boolean status) {
         setRegisterNumber(registerNumber);
@@ -39,12 +41,26 @@ public abstract class Meter {
         this.status = status;
     }
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null) return false;
+        Meter meter = (Meter) o;
+
+        return status == meter.status &&
+                Objects.equals(registerNumber, meter.registerNumber) &&
+                Objects.equals(placementCode, meter.placementCode);
+    }
+
+
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(registerNumber);
-        sb.append(placementCode);
-        sb.append(status);
+        sb.append("\n Registernummer: " + registerNumber);
+        sb.append("\n plasseringskode: " + placementCode);
+        sb.append("\n Status: " + status);
         return sb.toString();
     }
 }

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7a2a3dd-3a54-4c7b-af19-aa5da93cb8c5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" afterPath="$PROJECT_DIR$/src/Client.java" />
+      <change beforePath="$PROJECT_DIR$/src/Clock.java" afterPath="$PROJECT_DIR$/src/Clock.java" />
+      <change beforePath="$PROJECT_DIR$/src/Meter.java" afterPath="$PROJECT_DIR$/src/Meter.java" />
+      <change beforePath="$PROJECT_DIR$/src/MeterArchive.java" afterPath="$PROJECT_DIR$/src/MeterArchive.java" />
+      <change beforePath="$PROJECT_DIR$/src/Thermometer.java" afterPath="$PROJECT_DIR$/src/Thermometer.java" />
+      <change beforePath="$PROJECT_DIR$/src/Weight.java" afterPath="$PROJECT_DIR$/src/Weight.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +23,22 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+            <state relative-caret-position="756">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MeterArchive.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MeterArchive.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MeterArchive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="821">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,21 +47,21 @@
       <file leaf-file-name="Meter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Meter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="1980">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
                 <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +70,8 @@
       <file leaf-file-name="Clock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="792">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="e#359#360#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
@@ -74,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thermometer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Thermometer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thermometer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="813">
+              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="e#445#446#0" expanded="true" />
                 <element signature="e#482#483#0" expanded="true" />
@@ -96,8 +104,8 @@
       <file leaf-file-name="Weight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Weight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+            <state relative-caret-position="741">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding>
                 <element signature="e#383#384#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
@@ -132,11 +140,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Client.java" />
+        <option value="$PROJECT_DIR$/src/Meter.java" />
         <option value="$PROJECT_DIR$/src/Clock.java" />
         <option value="$PROJECT_DIR$/src/Thermometer.java" />
         <option value="$PROJECT_DIR$/src/Weight.java" />
-        <option value="$PROJECT_DIR$/src/Meter.java" />
-        <option value="$PROJECT_DIR$/src/Client.java" />
         <option value="$PROJECT_DIR$/src/MeterArchive.java" />
       </list>
     </option>
@@ -168,8 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -187,6 +193,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -194,7 +202,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Westerdals/Vår 2018/PGR101 -  Prog2 REP/rep_04/PGR101_2018" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -325,12 +333,15 @@
       <updated>1520609857483</updated>
       <workItem from="1520609861608" duration="4528000" />
       <workItem from="1520614555028" duration="8000" />
-      <workItem from="1520789854065" duration="39000" />
+      <workItem from="1520789854065" duration="1093000" />
+      <workItem from="1520842194399" duration="295000" />
+      <workItem from="1520842703119" duration="167000" />
+      <workItem from="1520843701551" duration="7750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4575000" />
+    <option name="totallyTimeSpent" value="13841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1971" y="42" width="1869" height="2118" extended-state="4" />
@@ -338,12 +349,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32999474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32999474" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -360,7 +372,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -384,12 +395,278 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Meter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thermometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Weight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MeterArchive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Meter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thermometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Weight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MeterArchive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Meter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thermometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Weight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MeterArchive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MeterArchive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -446,18 +723,18 @@
         <state relative-caret-position="576">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
             <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -475,18 +752,18 @@
         <state relative-caret-position="576">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
             <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,14 +821,43 @@
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thermometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Weight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        <state relative-caret-position="741">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
             <element signature="e#383#384#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
@@ -567,8 +873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="792">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="e#359#360#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
@@ -580,56 +886,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        <state relative-caret-position="756">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeterArchive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Meter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="1980">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
             <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thermometer.java">
+    <entry file="file://$PROJECT_DIR$/src/MeterArchive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="821">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>

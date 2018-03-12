@@ -23,7 +23,7 @@ public class Clock extends Meter {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(super.toString());
-        sb.append(minTimeIntervall);
+        sb.append("\n tidsintervall: " + minTimeIntervall);
         return sb.toString();
     }
 }
