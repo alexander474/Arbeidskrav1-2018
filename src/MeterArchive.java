@@ -33,8 +33,10 @@ public class MeterArchive {
     public Meter getInstument(String regNum){
         for(int i=0; i<meters.size(); i++) {
             if (meters.get(i).getRegisterNumber() == regNum) {
+                System.out.println("Henter instrument med regnummer " + meters.get(i).getRegisterNumber() + ":");
                 System.out.println(meters.get(i));
                 return meters.get(i);
+
             }
         }
         return null;
@@ -43,14 +45,16 @@ public class MeterArchive {
     public void changeInstrumentPlacement(String regNum, String newPlassering){
         for(int i=0; i<meters.size(); i++) {
             if (meters.get(i).getRegisterNumber() == regNum) {
+                System.out.println("Setter instrument med regnummer " + meters.get(i).getRegisterNumber() + " til plassering " + newPlassering + "\n");
                 meters.get(i).setPlacementCode(newPlassering);
             }
         }
     }
 
-    public void changeInstrumentStatus(String regNum){
+    public void changeInstrumentStatusToFalse(String regNum){
         for(int i=0; i<meters.size(); i++) {
             if (meters.get(i).getRegisterNumber() == regNum) {
+                System.out.println("Setter instrument med regnummer " + meters.get(i).getRegisterNumber() + " til ikke i orden:\n");
                 meters.get(i).setStatus(false);
             }
         }
@@ -60,6 +64,8 @@ public class MeterArchive {
     public boolean deleteInstrument(String regNum) {
         for (int i = 0; i < meters.size(); i++) {
             if (meters.get(i).getRegisterNumber() == regNum) {
+                System.out.println("Sletter instrument med regnummer " + meters.get(i).getRegisterNumber());
+                System.out.println("Instrument med regnummer " + meters.get(i).getRegisterNumber() + " er nå slettet\n");
                 meters.remove(i);
                 return true;
             }

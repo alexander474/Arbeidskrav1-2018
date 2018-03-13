@@ -41,16 +41,19 @@ public class Meter {
         this.status = status;
     }
 
+    String statusCheck(){
+        if(status){
+            return "i orden";
+        }
+        return "ikke i orden";
+    }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null) return false;
-        Meter meter = (Meter) o;
+    public boolean equals(Meter m) {
+        if (this == m) return true;
+        if (m == null) return false;
 
-        return status == meter.status &&
-                Objects.equals(registerNumber, meter.registerNumber) &&
-                Objects.equals(placementCode, meter.placementCode);
+        return equals(m.registerNumber);
+
     }
 
 
@@ -58,9 +61,9 @@ public class Meter {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("\n Registernummer: " + registerNumber);
-        sb.append("\n plasseringskode: " + placementCode);
-        sb.append("\n Status: " + status);
+        sb.append("\nRegisternummer: " + registerNumber);
+        sb.append("\nplasseringskode: " + placementCode);
+        sb.append("\nStatus: " + statusCheck());
         return sb.toString();
     }
 }

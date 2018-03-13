@@ -30,9 +30,10 @@ public class Thermometer extends Meter{
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Termometer");
         sb.append(super.toString());
-        sb.append("\n max temperatur: " + maxTemperature);
-        sb.append("\n min temperatur: " + minTemperature);
+        sb.append("\nmax temperatur: " + maxTemperature);
+        sb.append("\nmin temperatur: " + minTemperature + "\n");
         return sb.toString();
     }
 }

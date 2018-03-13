@@ -30,9 +30,10 @@ public class Weight extends Meter {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Vekt");
         sb.append(super.toString());
-        sb.append("\n max vekt: " + maxWeight);
-        sb.append("\n min vekt: " + minWeight);
+        sb.append("\nmax vekt: " + maxWeight);
+        sb.append("\nmin vekt: " + minWeight + "\n");
         return sb.toString();
     }
 }

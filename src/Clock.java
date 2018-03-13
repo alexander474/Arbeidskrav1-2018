@@ -22,8 +22,9 @@ public class Clock extends Meter {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Klokke");
         sb.append(super.toString());
-        sb.append("\n tidsintervall: " + minTimeIntervall);
+        sb.append("\ntidsintervall: " + minTimeIntervall + " s\n");
         return sb.toString();
     }
 }
