@@ -15,12 +15,13 @@ public class Client {
         cl.mainMethod();
     }
 
+    /**
+     * This method will make test methods with different meters and add it to the arraylist. it will also run some of
+     * the change placement, change status and delete methods.
+     */
     public void mainMethod(){
         meterArchive = new MeterArchive();
 
-        //vekt * 3
-        //termometer * 3
-        //klokke * 3
         Meter weight1 = new Weight("V1000", "R101H1", true, 0.1, 10.0);
         Meter weight2 = new Weight("V1001", "R101H2", true, 0.1, 100.0);
         Meter weight3 = new Weight("V1002", "R101H3", true, 0.1, 1000.0);
@@ -52,8 +53,15 @@ public class Client {
         meterArchive.getInstument("K3002");
 
         meterArchive.changeInstrumentPlacement("V1001", "M232MM");
-        meterArchive.changeInstrumentStatusToFalse("K3001");
+        meterArchive.changeInstrumentPlacement("V1000", "R101H9");
+        meterArchive.changeInstrumentStatus("K3001", false);
         meterArchive.deleteInstrument("T2002");
+        meterArchive.deleteInstrument("K300");
+
+        meterArchive.getInstument("V1000");
+        meterArchive.getInstument("V1001");
+        meterArchive.getInstument("T2002");
+        meterArchive.getInstument("K3001");
 
 
     }

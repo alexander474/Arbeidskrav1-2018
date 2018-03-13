@@ -1,7 +1,7 @@
 import java.util.Objects;
 
 /**
- * This class would connect all the subclasses
+ * This is the superclass for the different meters
  */
 public class Meter {
     String registerNumber, placementCode;
@@ -41,6 +41,7 @@ public class Meter {
         this.status = status;
     }
 
+
     String statusCheck(){
         if(status){
             return "i orden";
@@ -48,13 +49,17 @@ public class Meter {
         return "ikke i orden";
     }
 
+    // i don't use this method
     public boolean equals(Meter m) {
         if (this == m) return true;
         if (m == null) return false;
 
-        return equals(m.registerNumber);
 
+        return status == m.status &&
+                Objects.equals(registerNumber, m.registerNumber) &&
+                Objects.equals(placementCode, m.placementCode);
     }
+
 
 
 
