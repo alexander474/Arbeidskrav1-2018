@@ -13,30 +13,10 @@ public class Client {
      */
     public void mainMethod(){
         populateMeterArchive();
-
-        // getting instruments
-        meterArchive.getInstument("V1000");
-        meterArchive.getInstument("V1001");
-        meterArchive.getInstument("V1002");
-        meterArchive.getInstument("T2000");
-        meterArchive.getInstument("T2001");
-        meterArchive.getInstument("T2002");
-        meterArchive.getInstument("K3000");
-        meterArchive.getInstument("K3001");
-        meterArchive.getInstument("K3002");
-        meterArchive.getInstument("L4834");
-
-        // changes the instrument placement
-        meterArchive.changeInstrumentPlacement("V1001", "M232MM");
-        meterArchive.changeInstrumentPlacement("V1000", "R101H9");
-
-        // changes the instrument status
-        meterArchive.changeInstrumentStatus("K3001", false);
-        meterArchive.changeInstrumentStatus("KV02", false);
-
-        // deletes a instrument
-        meterArchive.deleteInstrument("T2002");
-        meterArchive.deleteInstrument("K300");
+        getInstruments();
+        changeInstrumentPlacements();
+        changeInstrumentStatus();
+        deleteInstruments();
 
         // getting instruments that have been changed in some sort
         meterArchive.getInstument("V1000");
@@ -59,5 +39,49 @@ public class Client {
         meterArchive.addInstrument(new Clock("K3000", "R101H7", true, 1.0 ));
         meterArchive.addInstrument(new Clock("K3001", "R101H8", true, 0.01 ));
         meterArchive.addInstrument(new Clock("K3002", "R200H20", true, 0.001 ));
+    }
+
+    /**
+     * Getting instruments
+     */
+    void getInstruments(){
+        // getting instruments
+        meterArchive.getInstument("V1000");
+        meterArchive.getInstument("V1001");
+        meterArchive.getInstument("V1002");
+        meterArchive.getInstument("T2000");
+        meterArchive.getInstument("T2001");
+        meterArchive.getInstument("T2002");
+        meterArchive.getInstument("K3000");
+        meterArchive.getInstument("K3001");
+        meterArchive.getInstument("K3002");
+        meterArchive.getInstument("L4834");
+    }
+
+    /**
+     * Changes the placements of some instruments
+     */
+    void changeInstrumentPlacements(){
+        // changes the instrument placement
+        meterArchive.changeInstrumentPlacement("V1001", "M232MM");
+        meterArchive.changeInstrumentPlacement("V1000", "R101H9");
+    }
+
+    /**
+     * Changes the status of some instruments
+     */
+    void changeInstrumentStatus(){
+        // changes the instrument status
+        meterArchive.changeInstrumentStatus("K3001", false);
+        meterArchive.changeInstrumentStatus("KV02", false);
+    }
+    
+    /**
+     * Deletes some instruments
+     */
+    void deleteInstruments(){
+        // deletes a instrument
+        meterArchive.deleteInstrument("T2002");
+        meterArchive.deleteInstrument("K300");
     }
 }
