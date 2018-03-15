@@ -1,4 +1,3 @@
-
 import java.util.List;
 import java.util.ArrayList;
 
@@ -19,6 +18,7 @@ public class MeterArchive {
      */
     public void addInstrument(Meter meter){
         if(meter != null) {
+            System.out.println("ADDING [" + meter.getClass().getName().toUpperCase() + "] to list\n");
             meters.add(meter);
         }
     }
@@ -50,7 +50,8 @@ public class MeterArchive {
 
             }
         }
-        System.out.println("[error] you tried to access a instrument that dosen't exist\n");
+        System.out.println("[error] you tried to access a instrument that dosen't exist");
+        System.out.println("[error] ["+regNum+"]" + " [dosen't exist]\n");
         return null;
     }
 
@@ -59,14 +60,43 @@ public class MeterArchive {
      * @param regNum
      * @param newPlassering
      */
-    public void changeInstrumentPlacement(String regNum, String newPlassering){
+    public boolean changeInstrumentPlacement(String regNum, String newPlassering){
+        //Meter a;
+        //Meter b;
+
         for(int i=0; i<meters.size(); i++) {
 
                 if (meters.get(i).getRegisterNumber() == regNum) {
-                    System.out.println("Setter instrument med regnummer " + meters.get(i).getRegisterNumber() + " til plassering " + newPlassering + "\n");
-                    meters.get(i).setPlacementCode(newPlassering);
+                        System.out.println("Setter instrument med regnummer " + meters.get(i).getRegisterNumber() + " til plassering " + newPlassering + "\n");
+                        meters.get(i).setPlacementCode(newPlassering);
+                        return true;
                 }
         }
+
+        /**
+        for(int i=0; i<meters.size(); i++) {
+            if(meters.get(i).getRegisterNumber() == regNum){
+              a = meters.get(i);
+              break;
+            }
+        }
+        if(a == null) return false;
+        if(a.getPlacementCode() == newPlassering) return true;
+
+        for(int j= 0; j<meters.size(); j++){
+            if(meters.get(j).getPlacementCode() == regNum){
+               b = meters.get(j);
+               break;
+            }
+        }
+        if(b == null) return false;
+
+        b.setPlacementCode(a.getPlacementCode());
+        a.setPlacementCode(newPlassering);
+
+        return true;
+         */
+        return false;
     }
 
     /**
@@ -74,13 +104,17 @@ public class MeterArchive {
      * @param regNum
      * @param newStatus
      */
-    public void changeInstrumentStatus(String regNum, boolean newStatus){
+    public boolean changeInstrumentStatus(String regNum, boolean newStatus){
         for(int i=0; i<meters.size(); i++) {
             if (meters.get(i).getRegisterNumber() == regNum) {
                 System.out.println("Setter instrument med regnummer " + meters.get(i).getRegisterNumber() + " til ikke i orden:\n");
                 meters.get(i).setStatus(newStatus);
+                return true;
             }
         }
+        System.out.println("[error] Couldn't alter the status or an instrument with that register number dosen't exist!!!");
+        System.out.println("[error] ["+regNum+"]\n");
+        return false;
     }
 
     /**
@@ -98,6 +132,7 @@ public class MeterArchive {
             }
         }
         System.out.println("[error] you tried to delete a instrument that dosen't exist!!!");
+        System.out.println("[error] ["+regNum+"]" + " [dosen't exist]\n");
         return false;
     }
 }

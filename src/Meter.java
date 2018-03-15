@@ -46,7 +46,7 @@ public class Meter {
         if(status){
             return "i orden";
         }
-        return "ikke i orden";
+        return "i uorden";
     }
 
     // i don't use this method

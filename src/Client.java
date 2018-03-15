@@ -30,7 +30,7 @@ public class Client {
         Meter thermometer3 = new Thermometer("T2002", "R101H6", true, 300, 100);
         Meter clock1 = new Clock("K3000", "R101H7", true, 1.0 );
         Meter clock2 = new Clock("K3001", "R101H8", true, 0.01 );
-        Meter clock3 = new Clock("K3002", "R101H9", true, 0.001 );
+        Meter clock3 = new Clock("K3002", "R200H20", true, 0.001 );
 
         meterArchive.addInstrument(weight1);
         meterArchive.addInstrument(weight2);
@@ -55,6 +55,7 @@ public class Client {
         meterArchive.changeInstrumentPlacement("V1001", "M232MM");
         meterArchive.changeInstrumentPlacement("V1000", "R101H9");
         meterArchive.changeInstrumentStatus("K3001", false);
+        meterArchive.changeInstrumentStatus("KV02", false);
         meterArchive.deleteInstrument("T2002");
         meterArchive.deleteInstrument("K300");
 
