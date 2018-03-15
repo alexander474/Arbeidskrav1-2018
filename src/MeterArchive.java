@@ -23,31 +23,17 @@ public class MeterArchive {
         }
     }
 
-    private void addClock(Meter meter){
-        Clock clock = new Clock();
-        meters.add(meter);
-    }
-    private void addThermometer(Meter meter){
-        Thermometer thermometer = new Thermometer();
-        meters.add(meter);
-    }
-    private void addWheight(Meter meter){
-        Weight weight = new Weight();
-        meters.add(meter);
-    }
-
     /**
      * returns a meter object and prints out the info about a meter based on the register number
      * @param regNum
      * @return
      */
     public Meter getInstument(String regNum){
-        for(int i=0; i<meters.size(); i++) {
-            if (meters.get(i).getRegisterNumber() == regNum) {
-                System.out.println("Henter instrument med regnummer " + meters.get(i).getRegisterNumber() + ":");
-                System.out.println(meters.get(i));
-                return meters.get(i);
-
+        for(Meter m : meters) {
+            if (m.getRegisterNumber().equals(regNum)) {
+                System.out.println("Henter instrument med regnummer " + m.getRegisterNumber() + ":");
+                System.out.println(m);
+                return m;
             }
         }
         System.out.println("[error] you tried to access a instrument that dosen't exist");
