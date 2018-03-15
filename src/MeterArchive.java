@@ -32,13 +32,15 @@ public class MeterArchive {
         for(Meter m : meters) {
             if (m.getRegisterNumber().equals(regNum)) {
                 System.out.println("Henter instrument med regnummer " + m.getRegisterNumber() + ":");
-                System.out.println(m);
                 return m;
             }
         }
-        System.out.println("[error] you tried to access a instrument that dosen't exist");
         System.out.println("[error] ["+regNum+"]" + " [dosen't exist]\n");
         return null;
+    }
+
+    public List<Meter> getAllInstuments(){
+        return meters;
     }
 
     /**
@@ -47,41 +49,14 @@ public class MeterArchive {
      * @param newPlassering
      */
     public boolean changeInstrumentPlacement(String regNum, String newPlassering){
-        //Meter a;
-        //Meter b;
+        for(Meter m : meters) {
 
-        for(int i=0; i<meters.size(); i++) {
-
-                if (meters.get(i).getRegisterNumber() == regNum) {
-                        System.out.println("Setter instrument med regnummer " + meters.get(i).getRegisterNumber() + " til plassering " + newPlassering + "\n");
-                        meters.get(i).setPlacementCode(newPlassering);
-                        return true;
-                }
-        }
-
-        /**
-        for(int i=0; i<meters.size(); i++) {
-            if(meters.get(i).getRegisterNumber() == regNum){
-              a = meters.get(i);
-              break;
+            if (m.getRegisterNumber().equals(regNum)) {
+                System.out.println("Setter instrument med regnummer " + m.getRegisterNumber() + " til plassering " + newPlassering + "\n");
+                m.setPlacementCode(newPlassering);
+                return true;
             }
         }
-        if(a == null) return false;
-        if(a.getPlacementCode() == newPlassering) return true;
-
-        for(int j= 0; j<meters.size(); j++){
-            if(meters.get(j).getPlacementCode() == regNum){
-               b = meters.get(j);
-               break;
-            }
-        }
-        if(b == null) return false;
-
-        b.setPlacementCode(a.getPlacementCode());
-        a.setPlacementCode(newPlassering);
-
-        return true;
-         */
         return false;
     }
 
@@ -91,10 +66,10 @@ public class MeterArchive {
      * @param newStatus
      */
     public boolean changeInstrumentStatus(String regNum, boolean newStatus){
-        for(int i=0; i<meters.size(); i++) {
-            if (meters.get(i).getRegisterNumber() == regNum) {
-                System.out.println("Setter instrument med regnummer " + meters.get(i).getRegisterNumber() + " til ikke i orden:\n");
-                meters.get(i).setStatus(newStatus);
+        for(Meter m : meters) {
+            if (m.getRegisterNumber().equals(regNum)) {
+                System.out.println("Setter instrument med regnummer " + m.getRegisterNumber() + " til ikke i orden:\n");
+                m.setStatus(newStatus);
                 return true;
             }
         }
@@ -110,15 +85,21 @@ public class MeterArchive {
      */
     public boolean deleteInstrument(String regNum) {
         for (int i = 0; i < meters.size(); i++) {
-            if (meters.get(i).getRegisterNumber() == regNum) {
-                System.out.println("Sletter instrument med regnummer " + meters.get(i).getRegisterNumber());
-                System.out.println("Instrument med regnummer " + meters.get(i).getRegisterNumber() + " er nå slettet\n");
+            if (meters.get(i).getRegisterNumber().equals(regNum)) {
+                System.out.println("Sletter instrument med regnummer [" + meters.get(i).getRegisterNumber()+"]");
                 meters.remove(i);
                 return true;
             }
         }
-        System.out.println("[error] you tried to delete a instrument that dosen't exist!!!");
         System.out.println("[error] ["+regNum+"]" + " [dosen't exist]\n");
         return false;
+    }
+
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        for(Meter m : meters){
+            sb.append(m);
+        }
+        return sb.toString();
     }
 }
