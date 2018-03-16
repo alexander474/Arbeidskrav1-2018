@@ -1,0 +1,71 @@
+[{
+  "Name": "vekt",
+  "MinVerdi": 0.01,
+  "MaxVerdi": 10.0,
+  "Regnummer": "V1000",
+  "Posisjon": "H20R10",
+  "Status": true
+},
+  {
+    "Name": "vekt",
+    "MinVerdi": 0.01,
+    "MaxVerdi": 100.0,
+    "Regnummer": "V2000",
+    "Posisjon": "H30R10",
+    "Status": true
+  },
+  {
+    "Name": "vekt",
+    "MinVerdi": 0.01,
+    "MaxVerdi": 1000.0,
+    "Regnummer": "V3000",
+    "Posisjon": "H40R10",
+    "Status": true
+  },
+  {
+    "Name": "klokke",
+    "MinVerdi": 0.01,
+    "Regnummer": "K1000",
+    "Posisjon": "H20R20",
+    "Status": true
+  },
+  {
+    "Name": "klokke",
+    "MinVerdi": 0.01,
+    "Regnummer": "K2000",
+    "Posisjon": "H30R20",
+    "Status": true
+  },
+  {
+    "Name": "klokke",
+    "MinVerdi": 0.01,
+    "Regnummer": "K3000",
+    "Posisjon": "H40R20",
+    "Status": true
+  },
+  {
+    "Name": "termometer",
+    "MinVerdi": -273.15,
+    "MaxVerdi": 273.5,
+    "Regnummer": "T1000",
+    "Posisjon": "H20R30",
+    "Status": true
+  },
+  {
+    "Name": "termometer",
+    "MinVerdi": 0.0,
+    "MaxVerdi": 150.0,
+    "Regnummer": "T2000",
+    "Posisjon": "H30R30",
+    "Status": true
+  },
+  {
+    "Name": "termometer",
+    "MinVerdi": 50.0,
+    "MaxVerdi": 100.0,
+    "Regnummer": "T3000",
+    "Posisjon": "H40R30",
+    "Status": true
+  }
+
+]

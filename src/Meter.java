@@ -49,6 +49,15 @@ public class Meter {
         return "i uorden";
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null) return false;
+        Meter meter = (Meter) o;
+        return status == meter.status &&
+                Objects.equals(registerNumber, meter.registerNumber) &&
+                Objects.equals(placementCode, meter.placementCode);
+    }
 
 
     @Override
