@@ -1,3 +1,5 @@
+import javafx.application.Application;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,8 +18,7 @@ public class Client {
 
 
     /**
-     * This method will make test methods with different meters and add it to the arraylist. it will also run some of
-     * the change placement, change status and delete methods.
+     * This method will run different methods from meterArchive and print meters
      */
     public void mainMethod(){
         populateArchive();
@@ -29,6 +30,7 @@ public class Client {
 
         /**
          * These lines gets the info from the dummy class
+         *
         dummyData.populateMeterArchive();
         dummyData.getInstruments();
         dummyData.changeInstrumentPlacements();
@@ -38,16 +40,26 @@ public class Client {
          **/
     }
 
+    /**
+     * This will transfer data from one MeterArchive to another one. this is only used if you use the dummydata
+     * @param meterArchive
+     */
     void transferData(MeterArchive meterArchive){
         this.meterArchive = meterArchive;
     }
 
+    /**
+     * This will print all the meters in the list
+     */
     void printMeters(){
         for(Meter m : meterArchive.getAllInstuments()) {
             System.out.println(m.toString());
         }
     }
 
+    /**
+     * This will populate the MeterArchive with data from the json file using the reader class
+     */
     void populateArchive(){
         ArrayList<Meter> arrayList = reader.readMeter("Example.json");
         for(Meter m : arrayList)

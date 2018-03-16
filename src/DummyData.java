@@ -1,3 +1,6 @@
+/**
+ * This class will populate the meterarchive with data and use some of the methods in the MeterArchive class.
+ */
 public class DummyData{
     MeterArchive meterArchive;
 

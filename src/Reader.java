@@ -16,6 +16,12 @@ public class Reader {
     public Reader() {
     }
 
+
+    /**
+     * Reads a json file and gets some spesific data. puts the data into different meters.
+     * @param FilePath
+     * @return
+     */
     public ArrayList<Meter> readMeter(String FilePath){
         ArrayList<Meter> meters;
         meters = new ArrayList<>();
@@ -60,6 +66,5 @@ public class Reader {
 
 }
 
-//https://www.youtube.com/watch?v=cFCgFlqF5kw
 
 

@@ -39,6 +39,10 @@ public class MeterArchive {
         return null;
     }
 
+    /**
+     * Returns a list with all existing meters in the List
+     * @return
+     */
     public List<Meter> getAllInstuments(){
         return meters;
     }
@@ -95,11 +99,4 @@ public class MeterArchive {
         return false;
     }
 
-    public String toString(){
-        StringBuilder sb = new StringBuilder();
-        for(Meter m : meters){
-            sb.append(m);
-        }
-        return sb.toString();
-    }
 }
