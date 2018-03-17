@@ -31,6 +31,7 @@ public class MeterArchive {
     public Meter getInstument(String regNum){
         for(Meter m : meters) {
             if (m.getRegisterNumber().equals(regNum)) {
+                if(regNum.isEmpty()) return null;
                 System.out.println("Henter instrument med regnummer " + m.getRegisterNumber() + ":");
                 return m;
             }
@@ -56,6 +57,7 @@ public class MeterArchive {
         for(Meter m : meters) {
 
             if (m.getRegisterNumber().equals(regNum)) {
+                if(newPlassering.isEmpty()) return false;
                 System.out.println("Setter instrument med regnummer " + m.getRegisterNumber() + " til plassering " + newPlassering + "\n");
                 m.setPlacementCode(newPlassering);
                 return true;
@@ -72,6 +74,7 @@ public class MeterArchive {
     public boolean changeInstrumentStatus(String regNum, boolean newStatus){
         for(Meter m : meters) {
             if (m.getRegisterNumber().equals(regNum)) {
+                if(regNum.isEmpty()) return false;
                 System.out.println("Setter instrument med regnummer " + m.getRegisterNumber() + " til ikke i orden:\n");
                 m.setStatus(newStatus);
                 return true;

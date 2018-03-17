@@ -6,17 +6,10 @@
 <?import javafx.scene.layout.*?>
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="917.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlController">
-   <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-         <children>
-            <TextArea fx:id="textArea" editable="false" layoutX="17.0" layoutY="21.0" prefHeight="593.0" prefWidth="882.0" />
-         </children>
-      </AnchorPane>
-   </center>
    <top>
       <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <items>
-            <Button fx:id="buttonStart" mnemonicParsing="false" onAction="#handleStart" text="Start">
+            <Button fx:id="buttonStart" mnemonicParsing="false" onAction="#handleStart" text="Legg til eksempler i liste">
                <font>
                   <Font size="26.0" />
                </font>
@@ -29,4 +22,48 @@
          </items>
       </ToolBar>
    </top>
+   <center>
+      <AnchorPane prefHeight="632.0" prefWidth="637.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="textArea" editable="false" layoutX="137.0" layoutY="20.0" prefHeight="593.0" prefWidth="406.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <VBox prefHeight="632.0" prefWidth="256.0" translateX="10.0" translateY="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="registerNumber" promptText="RegisterNumber" translateY="10.0" />
+            <TextField fx:id="placement" layoutX="10.0" layoutY="135.0" promptText="Ny plassering" translateY="20.0" />
+            <Button fx:id="buttonGetInstrument" layoutX="10.0" layoutY="100.0" mnemonicParsing="false" onAction="#HandleGetInstrument" text="Hent Instrument" translateX="40.0" translateY="30.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonGetAllInstrument1" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" onAction="#HandleGetAllInstrument" text="Hent alle instrumenter" translateX="10.0" translateY="40.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <HBox prefHeight="40.0" prefWidth="200.0" translateX="30.0" translateY="50.0">
+               <children>
+                  <Button fx:id="buttonSetFalse" mnemonicParsing="false" onAction="#HandleFalse" text="Ødelagt">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="buttonSetTrue" mnemonicParsing="false" onAction="#HandleTrue" text="I orden" translateX="10.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Button fx:id="buttonChangePlacement" mnemonicParsing="false" onAction="#HandlePlacement" text="Endre Plassering" translateX="40.0" translateY="60.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
 </BorderPane>
