@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="917.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="textArea" editable="false" layoutX="17.0" layoutY="21.0" prefHeight="593.0" prefWidth="882.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <Button fx:id="buttonStart" mnemonicParsing="false" onAction="#handleStart" text="Start">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonClear" mnemonicParsing="false" onAction="#handleClear" text="Clear">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+         </items>
+      </ToolBar>
+   </top>
+</BorderPane>
