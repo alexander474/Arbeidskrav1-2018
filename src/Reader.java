@@ -38,7 +38,7 @@ public class Reader {
                 Boolean Status = (Boolean) jsonObject.get("Status");
                 if(Name.equals("klokke")){
                     meters.add(new Clock(Regnummer, Posisjon, Status, MinVerdi));
-                    continue;// reads first the clock before it adds a max value because a clock dosen't have this value
+                    continue;//Check if the meter is a clock first as clocks do not have a max value
                 }
 
                 double MaxVerdi = (double) jsonObject.get("MaxVerdi");

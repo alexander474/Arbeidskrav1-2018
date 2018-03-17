@@ -4,11 +4,10 @@ import java.util.ArrayList;
 
 public class MeterArchive {
 
-    List<Meter> meters; // makes a list of Meter
+    List<Meter> meters; //Makes a list of meters
 
     public MeterArchive(){
-        meters = new ArrayList<>(); // makes the list of Meter to an ArrayList that can hold the instruments/meters
-
+        meters = new ArrayList<>(); //Initialize the ArrayList of Meters, this is used to hold the instruments/meters
     }
 
 

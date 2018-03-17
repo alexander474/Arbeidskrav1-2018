@@ -5,7 +5,7 @@ import java.util.Objects;
  */
 public class Meter {
     String registerNumber, placementCode;
-    boolean status = false; // broken or okey (default is false)
+    boolean status = false; // okay, not okey (default is false)
 
     public Meter(String registerNumber, String placementCode, boolean status) {
         setRegisterNumber(registerNumber);
