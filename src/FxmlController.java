@@ -36,7 +36,6 @@ public class FxmlController implements Initializable{
         textArea.clear();
         textArea.setText("Empty");
     }
-
     @FXML
     public void HandleGetInstrument(){
         printInstrument(getRegnumber());
@@ -45,23 +44,17 @@ public class FxmlController implements Initializable{
     public void HandleGetAllInstrument(){
         printMeters(textArea);
     }
-
     @FXML
     public void HandleTrue(){
         System.out.println("True is pressed\n");
         meterArchive.changeInstrumentStatus(getRegnumber(), true);
         printInstrument(getRegnumber());
-
-
-
     }
     @FXML
     public void HandleFalse(){
         System.out.println("False is pressed\n");
         meterArchive.changeInstrumentStatus(getRegnumber(), false);
         printInstrument(getRegnumber());
-
-
     }
     @FXML
     public void HandlePlacement(){
@@ -69,7 +62,6 @@ public class FxmlController implements Initializable{
         meterArchive.changeInstrumentPlacement(getRegnumber(), getNewPlacement());
         printInstrument(getRegnumber());
     }
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
