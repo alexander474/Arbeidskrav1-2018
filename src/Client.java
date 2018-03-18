@@ -12,7 +12,7 @@ public class Client {
     public Client(){
         meterArchive = new MeterArchive();
         dummyData = new DummyData();
-        //transferData(dummyData.meterArchive);
+        transferData(dummyData.meterArchive);
         reader = new Reader();
     }
 
@@ -21,23 +21,13 @@ public class Client {
      * This method will run different methods from meterArchive and print meters
      */
     public void mainMethod(){
-        populateArchive();
-        printMeters();
-        meterArchive.changeInstrumentStatus("V1000", false);
-        meterArchive.deleteInstrument("T2000");
-        meterArchive.changeInstrumentPlacement("K2000", "N2M48V");
-
-
-        /**
-         * These lines gets the info from the dummy class
-         *
         dummyData.populateMeterArchive();
         dummyData.getInstruments();
         dummyData.changeInstrumentPlacements();
         dummyData.changeInstrumentStatus();
         dummyData.deleteInstruments();
         printMeters();
-         **/
+
     }
 
     /**
