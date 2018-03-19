@@ -3,6 +3,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -42,7 +43,6 @@ public class Reader {
                 }
 
                 double MaxVerdi = (double) jsonObject.get("MaxVerdi");
-
                 if(Name.equals("vekt")){
                     meters.add(new Weight(Regnummer, Posisjon, Status, MinVerdi, MaxVerdi));
                 }
@@ -63,7 +63,6 @@ public class Reader {
         }
         return meters;
     }
-
 }
 
 

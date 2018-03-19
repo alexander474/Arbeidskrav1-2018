@@ -8,7 +8,8 @@ public class Weight extends Meter {
     }
 
     public Weight(){
-
+        setMinWeight(0);
+        setMaxWeight(0);
     }
 
     public double getMinWeight() {
@@ -32,8 +33,8 @@ public class Weight extends Meter {
         StringBuilder sb = new StringBuilder();
         sb.append("Vekt");
         sb.append(super.toString());
-        sb.append("\nmax vekt: " + maxWeight);
-        sb.append("\nmin vekt: " + minWeight + "\n");
+        sb.append("\nmax vekt: " + getMaxWeight());
+        sb.append("\nmin vekt: " + getMinWeight() + "\n");
         return sb.toString();
     }
 }

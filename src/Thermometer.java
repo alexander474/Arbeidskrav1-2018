@@ -8,7 +8,8 @@ public class Thermometer extends Meter{
     }
 
     public Thermometer(){
-
+        setMinTemperature(0);
+        setMaxTemperature(0);
     }
 
     public double getMaxTemperature() {
@@ -32,8 +33,8 @@ public class Thermometer extends Meter{
         StringBuilder sb = new StringBuilder();
         sb.append("Termometer");
         sb.append(super.toString());
-        sb.append("\nmax temperatur: " + maxTemperature);
-        sb.append("\nmin temperatur: " + minTemperature + "\n");
+        sb.append("\nmax temperatur: " + getMaxTemperature());
+        sb.append("\nmin temperatur: " + getMinTemperature() + "\n");
         return sb.toString();
     }
 }

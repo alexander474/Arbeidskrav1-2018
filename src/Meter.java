@@ -14,7 +14,9 @@ public class Meter {
     }
 
     public Meter(){
-
+        setRegisterNumber("Unknown");
+        setPlacementCode("Unknown");
+        setStatus(false);
     }
 
     public String getRegisterNumber() {
@@ -43,7 +45,7 @@ public class Meter {
 
 
     String statusCheck(){
-        if(status){
+        if(getStatus()){
             return "i orden";
         }
         return "i uorden";
@@ -63,8 +65,8 @@ public class Meter {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("\nRegisternummer: " + registerNumber);
-        sb.append("\nplasseringskode: " + placementCode);
+        sb.append("\nRegisternummer: " + getRegisterNumber());
+        sb.append("\nplasseringskode: " + getPlacementCode());
         sb.append("\nStatus: " + statusCheck());
         return sb.toString();
     }

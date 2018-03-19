@@ -39,7 +39,7 @@
                   <Font size="19.0" />
                </font>
             </Button>
-            <Button fx:id="buttonGetAllInstrument1" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" onAction="#HandleGetAllInstrument" text="Hent alle instrumenter" translateX="10.0" translateY="40.0">
+            <Button fx:id="buttonGetAllInstruments" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" onAction="#HandleGetAllInstrument" text="Hent alle instrumenter" translateX="10.0" translateY="40.0">
                <font>
                   <Font size="19.0" />
                </font>

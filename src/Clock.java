@@ -8,7 +8,7 @@ public class Clock extends Meter {
     }
 
     public Clock(){
-
+        setMinTimeIntervall(0);
     }
 
     public double getMinTimeIntervall() {
@@ -24,7 +24,7 @@ public class Clock extends Meter {
         StringBuilder sb = new StringBuilder();
         sb.append("Klokke");
         sb.append(super.toString());
-        sb.append("\ntidsintervall: " + minTimeIntervall + " s\n");
+        sb.append("\ntidsintervall: " + getMinTimeIntervall() + " s\n");
         return sb.toString();
     }
 }

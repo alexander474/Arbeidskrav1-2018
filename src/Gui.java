@@ -5,6 +5,8 @@ import javafx.scene.Scene;
 
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class Gui extends Application {
     Scene scene1;
 
@@ -12,7 +14,7 @@ public class Gui extends Application {
 
     }
 
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws IOException {
 
         Parent root = FXMLLoader.load(getClass().getResource("SceneBuilder.fxml"));
         scene1 = new Scene(root, 1000,800);
